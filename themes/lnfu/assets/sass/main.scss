@@ -1,0 +1,49 @@
+@import "base/reset";
+@import "base/variables";
+@import "base/typography";
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: "MyFont";
+  padding-top: $body-padding-top + px; // navbar
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+html {
+  scroll-padding: $body-padding-top + px 0 0 0;
+}
+
+
+main.container {
+article {
+  header {
+    h1 {
+      font-size: 56px;
+      font-weight: 600;
+      margin-top: 24px;
+      margin-bottom: 12px;
+    }
+  }
+  h2 {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  mjx-math {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+}  
+}
+
+footer {
+  text-align: center;
+}
