@@ -1,0 +1,69 @@
+header h1 {
+  color: #3d4573;
+  text-align: center;
+}
+
+body {
+  font-family: "GenSekiGothic", sans-serif;
+  color: #222;
+  line-height: 1.5;
+  margin: 1rem;
+  background-color: #f2e9e9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid #3d4573;
+  margin-bottom: 1rem;
+}
+
+footer {
+  color: #3d4573;
+  border-top: 1px solid #3d4573;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+a {
+  color: #f22929;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+
+  list-style-position: inside;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+nav ul li a {
+  color: #3d4573;
+}
+
+@font-face {
+  font-family: "GenSekiGothic";
+  src: url("/fonts/GenSekiGothic/GenSekiGothic-B-0.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GenSekiGothic";
+  src: url("/fonts/GenSekiGothic/GenSekiGothic-R-0.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
