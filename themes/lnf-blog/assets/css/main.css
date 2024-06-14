@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "GenSekiGothic";
+  src: url("/fonts/GenSekiGothic/GenSekiGothic-B-0.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GenSekiGothic";
+  src: url("/fonts/GenSekiGothic/GenSekiGothic-R-0.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 header h1 {
   color: #3d4573;
   text-align: center;
@@ -50,20 +66,48 @@ nav ul li a {
   color: #3d4573;
 }
 
-@font-face {
-  font-family: "GenSekiGothic";
-  src: url("/fonts/GenSekiGothic/GenSekiGothic-B-0.ttf")
-    format("truetype");
-  font-weight: bold;
-  font-style: bold;
-  font-display: swap;
+img {
+  max-width: 100%;
 }
 
-@font-face {
-  font-family: "GenSekiGothic";
-  src: url("/fonts/GenSekiGothic/GenSekiGothic-R-0.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+code {
+  display: block;
+  overflow-x: auto;
+}
+
+time {
+  color: #e789a1;
+}
+
+.tag-container {
+  margin-top: 50px;
+}
+
+.tag-container ul {
+  margin: 5px 0;
+
+  list-style-position: inside;
+  list-style-type: none;
+  padding-left: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.tag-container ul li {
+  padding: 0 5px;
+  background-color: #e789a1;
+}
+
+.tag-container ul li a {
+  color: #ffffff;
+}
+
+blockquote {
+  background-color: #fff;
+  color: #3d4573;
+  padding: 2px 20px;
+  border-radius: 5px;
 }
