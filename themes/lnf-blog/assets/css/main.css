@@ -45,7 +45,7 @@ footer {
 }
 
 a {
-  color: #f22929;
+  color: #cc4e4e;
   text-decoration: none;
 }
 
@@ -71,7 +71,6 @@ img {
 }
 
 code {
-  display: block;
   overflow-x: auto;
 }
 
@@ -110,4 +109,9 @@ blockquote {
   color: #3d4573;
   padding: 2px 20px;
   border-radius: 5px;
+}
+
+pre {
+  padding: 10px;
+  border-radius: 2px;
 }
