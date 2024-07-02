@@ -4,5 +4,5 @@ title = 'Enfu Liao'
 theme = 'lnf-blog'
 [markup]
   [markup.highlight]
-    style = '>xcode'
+    style = 'monokai'
     tabWidth = 4
