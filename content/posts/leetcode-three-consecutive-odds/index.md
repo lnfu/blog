@@ -5,7 +5,7 @@ draft = false
 tags = ['LeetCode']
 +++
 
-今天是我的 LeetCode 60 天挑戰第一天，這個挑戰我每天都會寫 LeetCode daily challenge，希望能夠持續下去 ^^
+今天是我的 LeetCode 60 天挑戰第 1 天，這個挑戰我每天都會寫 LeetCode daily challenge，希望能夠持續下去 ^^
 
 今天的 daily challenge 是 Easy 難度，非常舒服。
 
