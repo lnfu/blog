@@ -2,6 +2,7 @@
 title = 'LeetCode 60 天挑戰 D03 - Minimum Difference Between Largest and Smallest Value in Three Moves'
 date = 2024-07-03T16:31:34Z
 draft = false
+tags = ['LeetCode']
 +++
 
 今天是 LeetCode 60 天挑戰第三天，差一點就忘記了... 看來還是要一早更新完機器就來寫一下比較保險。
