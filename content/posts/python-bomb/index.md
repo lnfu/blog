@@ -2,6 +2,7 @@
 title = 'Python 踩雷'
 date = 2024-07-04T03:53:53Z
 draft = false
+tags = ['Python']
 +++
 
 這一篇會紀錄我使用 Python 時遇到各種大大小小的問題。
