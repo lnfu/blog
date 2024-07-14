@@ -31,3 +31,28 @@ conda install tensorflow-gpu=1.15.0
 import tensorflow as tf
 print(tf.config.experimental.list_physical_devices('GPU'))
 ```
+
+## conda 內無法使用 OpenGL 和 EGL
+
+原本一直以為是我沒有成功安裝 OpenGL 和 EGL 相關的套件。
+
+```sh
+sudo apt-get install libegl1-mesa-dev
+```
+
+後來發現在 conda base 環境是可以跑的，`/usr/include` 也有 GL 和 EGL 的目錄，所以是 conda 的問題。
+
+但是依然不知道為什麽我的 conda 沒辦法抓到 `/usr/include` 和 `/usr/lib` 的檔案。
+
+查了很多資料都沒找到解法，我對 conda 也不太熟悉...
+
+最後決定直接建立 symbolic link 到 conda env 裡面，有成功跑起來了，只是覺得這應該不是最好的解決方式。
+
+```sh
+ln -s /usr/include/EGL /home/efliao/.conda/envs/gaussian-avatars/include/EGL
+ln -s /usr/include/KHR /home/efliao/.conda/envs/gaussian-avatars/include/KHR
+ln -s /usr/include/GL /home/efliao/.conda/envs/gaussian-avatars/include/GL
+
+ln -s /usr/lib/x86_64-linux-gnu/libEGL.so /home/efliao/.conda/envs/gaussian-avatars/lib/libEGL.so
+ln -s /usr/lib/x86_64-linux-gnu/libGL.so /home/efliao/.conda/envs/gaussian-avatars/lib/libGL.so
+```
