@@ -1,8 +1,4 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
 title = 'Enfu Liao'
+baseURL = 'https://efliao.com/'
+languageCode = "zh-tw"
 theme = 'lnf-blog'
-[markup]
-  [markup.highlight]
-    style = 'monokai'
-    tabWidth = 4
