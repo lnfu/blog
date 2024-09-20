@@ -15,28 +15,64 @@
 
 header h1 a {
   font-size: large;
-  color: #1B1C1E;
+  color: #1b1c1e;
   text-shadow: #fff 0 0 0.4em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+
+nav .navbar {
+  display: block;
+
+  margin: auto 0;
+  padding: 0 30px;
+
+  height: 30px;
+  border-radius: 15px;
+
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+nav .navbar ul {  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav .navbar ul li {
+  font-size: large;
+  text-align: center;
 }
 
 body {
   font-family: "GenSekiGothic", sans-serif;
-  color: #222;
+  color: #1b1c1e;
   line-height: 1.5;
   margin: 1rem;
   /* background-color: #f7f7f7; */
 
-  background-color: #61a698;
+  background-color: #9dbbb5;
   background-image:
-    linear-gradient(67.5deg, #61a698 10%, transparent 10%),
-    linear-gradient(157.5deg, #61a698 10%, transparent 10%),
-    linear-gradient(67.5deg, transparent 90%, #61a698 90%),
-    linear-gradient(157.5deg, transparent 90%, #61a698 90%),
+    linear-gradient(67.5deg, #9dbbb5 10%, transparent 10%),
+    linear-gradient(157.5deg, #9dbbb5 10%, transparent 10%),
+    linear-gradient(67.5deg, transparent 90%, #9dbbb5 90%),
+    linear-gradient(157.5deg, transparent 90%, #9dbbb5 90%),
 
-    linear-gradient(22.5deg, #61a698 10%, transparent 10%),
-    linear-gradient(112.5deg, #61a698 10%, transparent 10%),
-    linear-gradient(22.5deg, transparent 90%, #61a698 90%),
-    linear-gradient(112.5deg, transparent 90%, #61a698 90%),
+    linear-gradient(22.5deg, #9dbbb5 10%, transparent 10%),
+    linear-gradient(112.5deg, #9dbbb5 10%, transparent 10%),
+    linear-gradient(22.5deg, transparent 90%, #9dbbb5 90%),
+    linear-gradient(112.5deg, transparent 90%, #9dbbb5 90%),
 
     linear-gradient(22.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
     linear-gradient(-22.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
@@ -52,7 +88,7 @@ body {
 }
 
 .title {
-  color: #1B1C1E;
+  color: #1b1c1e;
 }
 
 .title h1 {
@@ -80,7 +116,7 @@ main {
 }
 
 footer {
-  color: #3d4573;
+  color: #1b1c1e;
   margin-top: 1rem;
   text-align: center;
 }
@@ -88,42 +124,6 @@ footer {
 a {
   color: #334195;
   text-decoration: none;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 5%;
-
-  display: flex;
-  height: 100vh;
-}
-
-nav .navbar {
-  display: block;
-  box-sizing: border-box;
-
-  height: 60%;
-  margin: auto 0;
-  padding: 50px 10px;
-  border-radius: 20px;
-
-  background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-
-nav .navbar ul {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-
-  list-style-type: none;
-  padding: 0;
-}
-
-nav .navbar ul li {
-  font-size: large;
-  text-align: center;
 }
 
 img {
