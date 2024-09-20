@@ -3,17 +3,17 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 
 [[menus.main]]
-name = 'Home'
+name = '🏠'
 pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Posts'
+name = '📝'
 pageRef = '/posts'
 weight = 20
 
 [[menus.main]]
-name = 'Tags'
+name = '🏷️'
 pageRef = '/tags'
 weight = 30
 
