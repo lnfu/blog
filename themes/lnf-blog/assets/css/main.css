@@ -1,22 +1,22 @@
 @font-face {
   font-family: "GenSekiGothic";
   src: url("/fonts/GenSekiGothic/GenSekiGothic-B-0.ttf") format("truetype");
-  font-weight: bold;
-  font-style: bold;
-  font-display: swap;
 }
 
 @font-face {
   font-family: "GenSekiGothic";
   src: url("/fonts/GenSekiGothic/GenSekiGothic-R-0.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 
-header h1 {
-  color: #020887;
-  text-align: center;
+@font-face {
+  font-family: "HannTzongWangHeiti";
+  src: url("/fonts/HannTzongWangHeiti.ttf") format("truetype");
+}
+
+header h1 a {
+  font-size: large;
+  color: #1B1C1E;
+  text-shadow: #fff 0 0 0.4em;
 }
 
 body {
@@ -24,17 +24,46 @@ body {
   color: #222;
   line-height: 1.5;
   margin: 1rem;
-  background-color: #fcfcfc;
+  /* background-color: #f7f7f7; */
+
+  background-color: #61a698;
+  background-image:
+    linear-gradient(67.5deg, #61a698 10%, transparent 10%),
+    linear-gradient(157.5deg, #61a698 10%, transparent 10%),
+    linear-gradient(67.5deg, transparent 90%, #61a698 90%),
+    linear-gradient(157.5deg, transparent 90%, #61a698 90%),
+
+    linear-gradient(22.5deg, #61a698 10%, transparent 10%),
+    linear-gradient(112.5deg, #61a698 10%, transparent 10%),
+    linear-gradient(22.5deg, transparent 90%, #61a698 90%),
+    linear-gradient(112.5deg, transparent 90%, #61a698 90%),
+
+    linear-gradient(22.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
+    linear-gradient(-22.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
+    linear-gradient(112.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
+    linear-gradient(-112.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%);
+
+  background-size: 250px 250px;
+  background-position:
+    -100px 150px, -150px 150px, -150px 100px, -100px 100px,
+    -150px 100px, -100px 100px, -100px 150px, -150px 150px,
+    0 0, 0 0, 0 0, 0 0;
+
 }
 
 .title {
-  color: #fff;
-  background: #020887;
-  padding: 10px 20px;
+  color: #1B1C1E;
 }
 
 .title h1 {
+  font-family: "HannTzongWangHeiti", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
   margin: 0;
+}
+
+h2 {
+  font-size: medium;
 }
 
 .container {
@@ -42,9 +71,16 @@ body {
   margin: 0 auto;
 }
 
+main {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
 footer {
   color: #3d4573;
-  border-top: 1px solid #647AA3;
   margin-top: 1rem;
   text-align: center;
 }
@@ -55,26 +91,39 @@ a {
 }
 
 nav {
-  background: #C6EBBE;
-  padding: 5px 0;
-}
+  position: fixed;
+  top: 0;
+  left: 5%;
 
-nav ul {
-  margin: 0;
   display: flex;
-  justify-content: space-around;
+  height: 100vh;
+}
 
-  list-style-position: inside;
+nav .navbar {
+  display: block;
+  box-sizing: border-box;
+
+  height: 60%;
+  margin: auto 0;
+  padding: 50px 10px;
+  border-radius: 20px;
+
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+nav .navbar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
 }
 
-nav ul li {
+nav .navbar ul li {
+  font-size: large;
   text-align: center;
-}
-
-nav ul li a {
-  color: #000;
 }
 
 img {
