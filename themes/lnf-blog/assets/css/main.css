@@ -99,6 +99,10 @@ body {
 }
 
 h2 {
+  font-size: large;
+}
+
+h3 {
   font-size: medium;
 }
 
@@ -113,6 +117,10 @@ main {
   padding: 50px;
 
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+main h2 {
+  color: #eee;
 }
 
 footer {
