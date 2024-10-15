@@ -14,9 +14,9 @@
 }
 
 header h1 a {
-  font-size: large;
-  color: #1b1c1e;
-  text-shadow: #fff 0 0 0.4em;
+  font-size: x-large;
+  color: #fbe700;
+  text-shadow: 0.1em 0.1em #fd642d, 0.2em 0.2em #13a86a, 0.3em 0.3em #232323;
 }
 
 header {
@@ -57,27 +57,27 @@ nav .navbar ul li {
 
 body {
   font-family: "GenSekiGothic", sans-serif;
-  color: #1b1c1e;
+  color: #959595;
   line-height: 1.5;
   margin: 1rem;
   /* background-color: #f7f7f7; */
 
-  background-color: #9dbbb5;
+  background-color: #272727;
   background-image:
-    linear-gradient(67.5deg, #9dbbb5 10%, transparent 10%),
-    linear-gradient(157.5deg, #9dbbb5 10%, transparent 10%),
-    linear-gradient(67.5deg, transparent 90%, #9dbbb5 90%),
-    linear-gradient(157.5deg, transparent 90%, #9dbbb5 90%),
+    linear-gradient(67.5deg, #272727 10%, transparent 10%),
+    linear-gradient(157.5deg, #272727 10%, transparent 10%),
+    linear-gradient(67.5deg, transparent 90%, #272727 90%),
+    linear-gradient(157.5deg, transparent 90%, #272727 90%),
 
-    linear-gradient(22.5deg, #9dbbb5 10%, transparent 10%),
-    linear-gradient(112.5deg, #9dbbb5 10%, transparent 10%),
-    linear-gradient(22.5deg, transparent 90%, #9dbbb5 90%),
-    linear-gradient(112.5deg, transparent 90%, #9dbbb5 90%),
+    linear-gradient(22.5deg, #272727 10%, transparent 10%),
+    linear-gradient(112.5deg, #272727 10%, transparent 10%),
+    linear-gradient(22.5deg, transparent 90%, #272727 90%),
+    linear-gradient(112.5deg, transparent 90%, #272727 90%),
 
-    linear-gradient(22.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(-22.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(112.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(-112.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%);
+    linear-gradient(22.5deg, transparent 33%, #747474 33%, #747474 36%, transparent 36%, transparent 64%, #747474 64%, #747474 67%, transparent 67%),
+    linear-gradient(-22.5deg, transparent 33%, #747474 33%, #747474 36%, transparent 36%, transparent 64%, #747474 64%, #747474 67%, transparent 67%),
+    linear-gradient(112.5deg, transparent 33%, #747474 33%, #747474 36%, transparent 36%, transparent 64%, #747474 64%, #747474 67%, transparent 67%),
+    linear-gradient(-112.5deg, transparent 33%, #747474 33%, #747474 36%, transparent 36%, transparent 64%, #747474 64%, #747474 67%, transparent 67%);
 
   background-size: 250px 250px;
   background-position:
@@ -88,7 +88,7 @@ body {
 }
 
 .title {
-  color: #1b1c1e;
+  color: #0ef69f;
 }
 
 .title h1 {
@@ -108,7 +108,7 @@ h2 {
 }
 
 main {
-  background-color: #fff;
+  background-color: #272727f0;
   border-radius: 10px;
   padding: 50px;
 
@@ -116,13 +116,13 @@ main {
 }
 
 footer {
-  color: #1b1c1e;
+  color: #aaa;
   margin-top: 1rem;
   text-align: center;
 }
 
 a {
-  color: #334195;
+  color: #247e5f;
   text-decoration: none;
 }
 
@@ -149,7 +149,7 @@ img {
 
 .tag-container ul li {
   padding: 0 5px;
-  background-color: #e789a1;
+  background-color: #fd642d;
 }
 
 .tag-container ul li a {
