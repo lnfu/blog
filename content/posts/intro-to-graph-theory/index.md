@@ -1,7 +1,7 @@
 +++
 title = '圖論'
 date = 2024-10-15T16:05:35+08:00
-draft = true
+draft = false
 +++
 
 ## 若 |E(G)| = m, 則 G 共有多少個生成子圖?

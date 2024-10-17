@@ -1,7 +1,7 @@
 +++
 title = "Hall's Marriage Theorem"
 date = 2024-10-15T19:44:34+08:00
-draft = true
+draft = false
 +++
 
 首先, 為了方便說明 Hall's marriage theorem ,我需要先介紹一些名詞定義: 二部圖 (bipartite graph), 配對 (matching), M-saturated, M-交錯路徑 (M-alternating path) 和 M-增廣路徑 (M-augmenting path)
