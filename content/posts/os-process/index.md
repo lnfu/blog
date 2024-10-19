@@ -53,6 +53,7 @@ scheduling criteria 指的就是我們應該在設計排程演算法時候應該
 
 - should be minimized (越小越好)
   - response time
+  - waiting time
   - turnaround time
 - should be maximized (越大越好)
   - CPU utilization
