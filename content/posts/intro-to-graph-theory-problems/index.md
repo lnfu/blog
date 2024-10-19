@@ -1,7 +1,8 @@
 +++
-title = '圖論'
+title = '圖論 - 題目'
 date = 2024-10-15T16:05:35+08:00
 draft = false
+tags = ['Graph Theory']
 +++
 
 ## 若 |E(G)| = m, 則 G 共有多少個生成子圖?
