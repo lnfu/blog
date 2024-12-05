@@ -20,9 +20,3 @@ identifier = "posts"
 name = "Posts"
 url = "/posts/"
 weight = 2
-
-[[menu.main]]
-identifier = "calendar"
-name = "Calendar"
-url = "/calendar/"
-weight = 3
