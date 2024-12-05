@@ -23,5 +23,7 @@ My research interest is in **Robotics**. Outside of academics, I enjoy reading n
 ## Calendar
 
 {{<raw_html>}}
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FTaipei&showPrint=0&showNav=0&showTitle=0&mode=WEEK&showCalendars=0&src=ZW5mdS5saWFvLmNzMTBAbnljdS5lZHUudHc&color=%233F51B5" style="border-width:0" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+<div class="calendar">
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FTaipei&showPrint=0&showNav=0&showTitle=0&mode=WEEK&showCalendars=0&src=ZW5mdS5saWFvLmNzMTBAbnljdS5lZHUudHc&color=%233F51B5" style="border-width:0" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+</div>
 {{</raw_html>}}
