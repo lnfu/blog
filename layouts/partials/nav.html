@@ -1,10 +1,8 @@
-<header class="site-header">
-    <nav class="site-nav">
-        <a href="{{ .Site.BaseURL }}" class="logo">{{ .Site.Title }}</a>
-    </nav>
+<nav class="site-nav">
+    <a href="{{ .Site.BaseURL }}" class="logo">Enfu Liao 廖恩莆</a>
     <ul class="main-menu">
         {{ range.Site.Menus.main }}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
     </ul>
-</header>
+</nav>

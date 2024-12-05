@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    {{ $opts := dict
+    "transpiler" "dartsass"
+    "targetPath" "css/style.css"
+    }}
+    {{ with resources.Get "sass/main.scss" | toCSS $opts | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{ end }}
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container">
+            {{ partial "nav.html" . }}
+        </div>
+        <hr>
+    </header>
+
+    <main class="content">
+        <div class="container">
