@@ -2,6 +2,7 @@ baseURL = 'https://efliao.com/'
 languageCode = 'en-us'
 title = 'Enfu Liao'
 
+defaultContentLanguage = "zh-tw"
 
 [params]
   since = '2024'

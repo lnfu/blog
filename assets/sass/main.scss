@@ -3,6 +3,8 @@
 
 $white: #FAFAFA;
 $black: #222222;
+$grey: #808080;
+$light-grey: #EEEEEE;
 
 @mixin mobile {
     @media(max-width:450px) {
@@ -28,6 +30,28 @@ a:active {
     text-decoration: none;
 }
 
+p a,
+p a:visited,
+p a:hover,
+p a:active {
+    color: $grey;
+}
+
+blockquote {
+    background-color: $light-grey;
+    color: $grey;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+  
+blockquote p:before {
+    font-size: 4em;
+    color: $grey;
+    content: '\201C';
+}  
+
 hr {
     height: 1px;
     background-color: $black;
@@ -46,10 +70,12 @@ body {
     }
 
     header {
-        padding: 2em 0;
+        padding: 2em 0 0;
     }
 
-    main {}
+    main {
+        padding: 1em 0;
+    }
 
     footer {
         text-align: center;
@@ -73,7 +99,7 @@ nav.site-nav {
 
         @include mobile {
             text-align: center;
-        }    
+        }
     }
 
     ul {
@@ -104,7 +130,7 @@ figure.pfp {
     img {
         width: 8em;
         height: 8em;
-        
+
         border-radius: 50%;
     }
 }
@@ -118,3 +144,10 @@ figure.pfp {
     }
 
 }
+
+.flex {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+}
+

@@ -4,8 +4,11 @@
 
 {{ .Content }}
 
-{{ range .Pages.ByTitle }}
-<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+{{ range sort .Pages.ByDate.Reverse }}
+<div class="flex">
+    <p>{{ .Date.Format "2006-01-02" }} &ndash; </p>
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+</div>
 {{ end }}
 
 {{ partial "end.html" . }}
