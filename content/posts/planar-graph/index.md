@@ -1,7 +1,7 @@
 +++
 date = '2024-12-05T17:36:03+08:00'
 draft = true
-title = '平面圖'
+title = '從平面圖定義到 Kuratowski 定理'
 +++
 
 ## 定義
