@@ -12,7 +12,7 @@ National Yang Ming Chiao Tung University
 
 Email: [efliao@cs.nycu.edu.tw](mailto:efliao@cs.nycu.edu.tw)
 
-[Personal Page](https://efliao.com/) | [GitHub](https://github.com/lnfu/) | CV
+[Personal Page](https://efliao.com/) | [GitHub](https://github.com/lnfu/) | [Résumé](https://drive.google.com/file/d/1umwLQ5B4pkj-T4GE3wwEXxJnlUe-csY0/view)
 
 ## About
 

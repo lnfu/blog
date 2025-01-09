@@ -1,6 +1,6 @@
 +++
 date = '2024-12-28T01:06:49+08:00'
-draft = true
+draft = false
 title = 'My Must-Have Software for a Personal Computer'
 +++
 
@@ -14,13 +14,17 @@ title = 'My Must-Have Software for a Personal Computer'
 - make
 - python-is-python3
 - python3
+- python3-venv
+- pppoeconf
 
-# From .deb
+
+# From `.deb`
 
 - steam
 - discord
 - slack
 - vscode
+- nvim
 
 # Others
 
@@ -28,3 +32,4 @@ title = 'My Must-Have Software for a Personal Computer'
 - rider
 - hugo
 - mattermost
+- OBS
