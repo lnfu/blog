@@ -1,7 +1,7 @@
 +++
 date = '2024-12-28T01:06:49+08:00'
 draft = false
-title = 'My Must-Have Software for a Personal Computer'
+title = 'My Must-Have Softwares for a Personal Computer'
 +++
 
 # From Apt

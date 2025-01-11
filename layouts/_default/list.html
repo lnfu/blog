@@ -1,7 +1,5 @@
 {{ partial "start.html" . }}
 
-<h1>{{ .Title }}</h1>
-
 {{ .Content }}
 
 {{ range sort .Pages.ByDate.Reverse }}

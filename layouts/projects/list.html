@@ -1,0 +1,19 @@
+{{ partial "start.html" . }}
+
+{{ .Content }}
+
+{{ range sort .Pages.ByDate.Reverse }}
+<div class="frame">
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ if .Params.image }}
+    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+    {{ else if .Params.iframe }}
+    <iframe src="{{ .Params.iframe.url }}" width="{{ .Params.iframe.width }}" height="{{ .Params.iframe.height }}"
+     frameborder="0" allowfullscreen seamless="seamless"></iframe>
+    {{ else }}
+    <img src="/images/default-thumbnail.jpg" alt="Default Thumbnail">
+    {{ end }}
+</div>
+{{ end }}
+
+{{ partial "end.html" . }}

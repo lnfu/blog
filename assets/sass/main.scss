@@ -151,3 +151,33 @@ figure.pfp {
     align-items: center;
 }
 
+.frame {
+    color: $black;
+    text-align: center;
+    margin: 2em;
+    padding: 1em 0 2em;
+    background-color: #00000011;
+    overflow: hidden;
+
+    outline: 2px solid $white; 
+    outline-offset: -1em;
+
+    img {
+        width: 80%;
+    }
+
+    iframe {
+        max-width: 400px;
+        @include mobile {
+            max-width: 250px;
+        }
+    }
+}
+
+h1 {
+    margin-block-end: 1em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
