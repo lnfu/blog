@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects 專案 on Enfu Liao</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects 專案 on Enfu Liao</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>efliao@cs.nycu.edu.tw (Enfu Liao)</managingEditor>
+    <webMaster>efliao@cs.nycu.edu.tw (Enfu Liao)</webMaster>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O: A SPACE-THEMED GAME</title>
+      <link>http://localhost:1313/projects/o/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/projects/o/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2024 Youth for Biotech Startup Website</title>
+      <link>http://localhost:1313/projects/ycbs/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/projects/ycbs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wiki Page of NYCU-Formosa 2022 (iGEM)</title>
+      <link>http://localhost:1313/projects/nycu-formosa/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/projects/nycu-formosa/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

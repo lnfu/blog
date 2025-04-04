@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enfu Liao</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Enfu Liao</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>efliao@cs.nycu.edu.tw (Enfu Liao)</managingEditor>
+    <webMaster>efliao@cs.nycu.edu.tw (Enfu Liao)</webMaster>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O: A SPACE-THEMED GAME</title>
+      <link>http://localhost:1313/projects/o/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/projects/o/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2024 Youth for Biotech Startup Website</title>
+      <link>http://localhost:1313/projects/ycbs/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/projects/ycbs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wiki Page of NYCU-Formosa 2022 (iGEM)</title>
+      <link>http://localhost:1313/projects/nycu-formosa/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/projects/nycu-formosa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My Must-Have Softwares for a Personal Computer</title>
+      <link>http://localhost:1313/posts/softwares-on-my-pc/</link>
+      <pubDate>Sat, 28 Dec 2024 01:06:49 +0800</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/posts/softwares-on-my-pc/</guid>
+      <description>From Apt btop fish gcc git go make python-is-python3 python3 python3-venv pppoeconf From .deb steam discord slack vscode nvim Others unityhub rider hugo mattermost OBS </description>
+    </item>
+    <item>
+      <title>新竹咖啡店</title>
+      <link>http://localhost:1313/posts/cafe-in-hsinchu/</link>
+      <pubDate>Sat, 07 Dec 2024 01:55:44 +0800</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/posts/cafe-in-hsinchu/</guid>
+      <description>已 江山藝改所 Jiang Shan Yi Gai Suo 新竹市東區興達街 1 號&#xA;咖啡好喝, 甜點也非常有特色, 全素&#xA;最喜歡的甜點是他的冰淇淋, 不是奶製品, 口感特別&#xA;常常會舉辦藝文活動 (例如邀請音樂家演奏、創作者演講等)&#xA;一樓架上好書也非常多, 都可以直接看, 遇到喜歡的書也可以直接買下來&#xA;未 暗室微光 新竹市東區勝利路 97 號&#xA;續日cafe 新竹市東區南大路 149 號&#xA;若木深夜咖啡廳 新竹縣竹北市縣政二路 70 號&#xA;墨咖啡 INK COFFEE 新竹市東區林森路 180 號&#xA;影咖啡Inn Caffé 新竹市東區金城一路 67 號&#xA;拾穗精品咖啡 新竹市東區長春街 105 巷 1 號</description>
+    </item>
+    <item>
+      <title>你好, 世界!</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Thu, 05 Dec 2024 23:22:49 +0800</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>從平面圖定義到 Kuratowski 定理</title>
+      <link>http://localhost:1313/posts/planar-graph/</link>
+      <pubDate>Thu, 05 Dec 2024 17:36:03 +0800</pubDate><author>efliao@cs.nycu.edu.tw (Enfu Liao)</author>
+      <guid>http://localhost:1313/posts/planar-graph/</guid>
+      <description>定義 存在平面嵌入 (planar embedding) 的圖稱為平面圖 (planar graph)&#xA;平面嵌入是指有一種同構的畫法可以讓所有的邊 (edge) 不會交錯&#xA;不可平面圖 (Nonplanar Graph) 沒有任何平面嵌入的圖就是不可平面圖&#xA;其中, 有兩個最小 (最重要) 的不可平面圖:&#xA;$K_{5}$ $K_{3,3}$ 注意, 這邊的「最小」, 指的是「點數最少」, 會特別提 $K_{3,3}$ 是因為它是二部圖 (bipartite graph) 中最小的不可平面圖&#xA;尤拉公式 (Euler&amp;rsquo;s Formula) 符合尤拉公式的前提:&#xA;是平面圖 是連通圖 注意, 即使不是簡單圖 (simple garph), 依然可以滿足尤拉公式&#xA;公式內容: $n - e + f = 2$&#xA;證明方式: 利用數學歸納法 (mathematical induction), 這部份之後補上&#xA;系理 (Corollary) 尤拉公式可以推出兩個系理, 可以進一步拿來反證一個圖是不可平面圖&#xA;首先, 我們知道一個面 (face) 一定「至少」會被 3 個邊所包圍, 並且在計算時, 每個邊會因為橫跨兩個面 (或是或是稱做 region) 而被重複算到兩次&#xA;$f \le \frac{2}{3} e$</description>
+    </item>
+  </channel>
+</rss>

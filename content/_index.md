@@ -2,7 +2,7 @@
 title = 'Enfu Liao'
 +++
 
-{{<figure class="pfp" src="/pfp.jpg" alt="pfp">}}
+{{<figure class="pfp" src="/pfp_merlion.jpg" alt="pfp">}}
 
 Senior Undergraduate Student  
 Department of Computer Science  

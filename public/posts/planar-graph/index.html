@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>從平面圖定義到 Kuratowski 定理 | Enfu Liao</title>
+    
+    
+    <link rel="stylesheet" href="/css/style.min.eaee473e4a87900012841123a09b505e5afc988e416c3d852950848735ecddfc.css" integrity="sha256-6u5HPkqHkAAShBEjoJtQXlr8mI5BbD2FKVCEhzXs3fw=" crossorigin="anonymous">
+    
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container">
+            <nav class="site-nav">
+    <a href="http://localhost:1313/" class="logo">Enfu Liao 廖恩莆</a>
+    <ul class="main-menu">
+        
+        <li><a href="/projects/">Projects</a></li>
+        
+        <li><a href="/posts/">Posts</a></li>
+        
+    </ul>
+</nav>
+        </div>
+        <hr>
+    </header>
+
+    <main class="content">
+        <div class="container">
+
+<h1>從平面圖定義到 Kuratowski 定理</h1>
+
+<h2 id="定義">定義</h2>
+<p>存在平面嵌入 (planar embedding) 的圖稱為平面圖 (planar graph)</p>
+<p>平面嵌入是指有一種同構的畫法可以讓所有的邊 (edge) 不會交錯</p>
+<h2 id="不可平面圖-nonplanar-graph">不可平面圖 (Nonplanar Graph)</h2>
+<p>沒有任何平面嵌入的圖就是不可平面圖</p>
+<p>其中, 有兩個最小 (最重要) 的不可平面圖:</p>
+<ol>
+<li>$K_{5}$</li>
+<li>$K_{3,3}$</li>
+</ol>
+<p>注意, 這邊的「最小」, 指的是「點數最少」, 會特別提 $K_{3,3}$ 是因為它是二部圖 (bipartite graph) 中最小的不可平面圖</p>
+<h2 id="尤拉公式-eulers-formula">尤拉公式 (Euler&rsquo;s Formula)</h2>
+<p>符合尤拉公式的前提:</p>
+<ol>
+<li>是平面圖</li>
+<li>是連通圖</li>
+</ol>
+<p>注意, 即使不是簡單圖 (simple garph), 依然可以滿足尤拉公式</p>
+<p>公式內容: $n - e + f = 2$</p>
+<p>證明方式: 利用數學歸納法 (mathematical induction), 這部份之後補上</p>
+<h3 id="系理-corollary">系理 (Corollary)</h3>
+<p>尤拉公式可以推出兩個系理, 可以進一步拿來反證一個圖是不可平面圖</p>
+<p>首先, 我們知道一個面 (face) 一定「至少」會被 3 個邊所包圍, 並且在計算時, 每個邊會因為橫跨兩個面 (或是或是稱做 region) 而被重複算到兩次</p>
+<p>$f \le \frac{2}{3} e$</p>
+<p>再考慮到尤拉公式, 就可以得出</p>
+<p>$e \le 3 n - 6$</p>
+<p>另外, 如果已知一個圖是二部圖, 我們可以進一步縮小範圍, 一個面「至少」被 4 個邊所包圍</p>
+<p>同樣考慮尤拉公式, 得</p>
+<p>$e \le 2 n - 4$</p>
+<h2 id="子圖-subgraph">子圖 (Subgraph)</h2>
+<p>任何平面圖的子圖仍然是平面圖</p>
+<p>但是不可平面圖的子圖可能是平面圖也可能是不可平面圖</p>
+<h2 id="對偶圖-dual-graph">對偶圖 (Dual Graph)</h2>
+<p>概念: 將面轉成點</p>
+<h2 id="kuratowski-定理">Kuratowski 定理</h2>
+<p>一個圖是平面圖若且唯若 (if and only if; iff) 它不包含 $K_{5}$ 或 $K_{3,3}$ 的細分 (subdivision)</p>
+<h2 id="練習">練習</h2>
+<h3 id="找出-k_pq-是平面圖的所有-p-q">找出 $K_{p,q}$ 是平面圖的所有 $p$, $q$</h3>
+
+
+</div>
+</main>
+
+<footer>
+    <hr>
+    <div class="container">
+        <p>Copyright&#169;2024 Enfu Liao</p>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
